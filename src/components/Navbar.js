@@ -18,14 +18,17 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+                            <Link className="nav-link" to="/Home">Home <span className="sr-only">(current)</span></Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/Posts">Posts <span className="sr-only"></span></Link>
                         </li>
                         <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle active" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Category
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link className="dropdown-item" to="/">Home</Link>   
+                        <Link className="dropdown-item" to="/Posts">Home</Link>   
                         <Link className="dropdown-item" to="/business">Business</Link>
                         <Link className="dropdown-item" to="/entertainment">Entertainment</Link>
                         <div className="dropdown-divider"></div>

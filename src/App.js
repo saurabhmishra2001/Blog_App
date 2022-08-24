@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Posts from './components/Posts';
 // import Login from './components/login';
 
 
@@ -10,15 +11,19 @@ import {
   Route,
  
 } from "react-router-dom";
+
 function App() {
   return (
     <div>
       <Router>
         <Navbar />
+        
         <Routes>
-          <Route path="/" component={Home} />
-          {/* <Route path="/" component={Home} />
-          <Route path="/login" component={Login} /> */}
+          <Route exact path='/Home'  element={<Home />} /> 
+          <Route exact path='/Posts' element={<Posts />} /> 
+
+         
+         
         </Routes>
       </Router>
 
