@@ -64,11 +64,27 @@ const blogPosts = [
 ];
 
 return (
-	<div className="posts-container">
+  
+    // {this.state.loading && <Spinner/>}
+    // <div className='row'>
+    // {!this.state.loading && this.state.articles.map((element)=> {
+    //     return <div className='col md-4'  key={element.url}>
+    //         <NewsItem title={element.title?element.title.slice(0, 45): ""} description ={element.description?element.description.slice(0, 60):" "} imageUrl={element.urlToImage} className="card-img-top" 
+    //             alt="This is Picture Image" newsUrl={element.url} author={element.author} date={element.publishedAt}/>
+    //     </div>
+
+    //     } )}  
+	  <div className='container my-3 '>
+    <h2 className='text-center'>Blog App- Top Blogs</h2>
+    <div className='row'>
+    <div className='col md-4'>
 	{blogPosts.map((post, index) => (
-		<Post key={index} index={index} post={post} />
+		<Post  key={index} index={index} post={post} />
 	))}
 	</div>
+    </div>
+    </div>
+  
 );
 };
 

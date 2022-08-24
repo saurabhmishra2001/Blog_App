@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Posts from './components/Posts';
-// import Login from './components/login';
+
 
 
 
@@ -21,6 +21,7 @@ function App() {
         <Routes>
           <Route exact path='/Home'  element={<Home />} /> 
           <Route exact path='/Posts' element={<Posts />} /> 
+      
 
          
          

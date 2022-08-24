@@ -29,13 +29,13 @@ function Navbar() {
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                         <Link className="dropdown-item" to="/Posts">Home</Link>   
-                        <Link className="dropdown-item" to="/business">Business</Link>
-                        <Link className="dropdown-item" to="/entertainment">Entertainment</Link>
+                        <Link className="dropdown-item" to="/Posts">Business</Link>
+                        <Link className="dropdown-item" to="/Posts">Entertainment</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="/health">Health</Link>
-                        <Link className="dropdown-item" to="/science">Science</Link>
-                        <Link className="dropdown-item" to="/sports">Sports</Link>
-                        <Link className="dropdown-item" to="/technology">technology</Link>
+                        <Link className="dropdown-item" to="/Posts">Health</Link>
+                        <Link className="dropdown-item" to="/Posts">Science</Link>
+                        <Link className="dropdown-item" to="/Posts">Sports</Link>
+                        <Link className="dropdown-item" to="/Posts">technology</Link>
                         </div>
                     </li>
                     </ul>
