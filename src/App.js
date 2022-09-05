@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Posts from './components/Posts';
+import Post from './components/Post';
 
 
 
@@ -17,10 +17,10 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        
+        <Post/>
         <Routes>
           <Route exact path='/Home'  element={<Home />} /> 
-          <Route exact path='/Posts' element={<Posts />} /> 
+          <Route exact path='/Post' element={<Post />} /> 
       
 
          
