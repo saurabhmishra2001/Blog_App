@@ -24,7 +24,7 @@ function Navbar() {
                             <Link className="nav-link" to="/Posts">Posts <span className="sr-only"></span></Link>
                         </li>
                         <li className="nav-item dropdown">
-                        <Link className="nav-link dropdown-toggle active" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <Link className="nav-link dropdown-toggle active" to="/Posts" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Category
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -34,6 +34,7 @@ function Navbar() {
                         <div className="dropdown-divider"></div>
                         <Link className="dropdown-item" to="/Algorithm">Algorithm</Link>
                         <Link className="dropdown-item" to="/AppDevelopment">App Development</Link>
+             
         
                         </div>
                     </li>

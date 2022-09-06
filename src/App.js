@@ -7,9 +7,6 @@ import Algorithm from './components/Algorithm';
 import Javascript from './components/Javascript';
 import AppDevelopment from './components/AppDevelopment';
 
-
-
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,13 +15,14 @@ import {
 } from "react-router-dom";
 
 
+
 function App() {
   return (
     <div>
       <Router>
         <Navbar />
    
-       
+ 
         <Routes>
           <Route exact path='/Home' element={<Home/>}/>  
           <Route exact path='/Posts' element={<Posts/>} /> 
@@ -33,6 +31,7 @@ function App() {
           <Route exact path='Algorithm'element={<Algorithm/>} />
           <Route exact path='Javascript'element={<Javascript/>} />
           <Route exact path='AppDevelopment'element={<AppDevelopment/>} />
+
       
 
          
