@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 
 const Post = ({ post: { title, body,
-imgUrl, author }, index }) => {
+imgUrl, author,category }, index }) => {
 return (
 
 <div style={{ margin: 0, width: "33%" }}>

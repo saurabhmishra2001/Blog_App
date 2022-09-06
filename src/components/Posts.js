@@ -1,16 +1,14 @@
 import React from "react";
 // import "../styles/Posts.css"
 import Post from "../components/Post";
-// const css = {
-//     grid: {
-//       display: "flex",
-//       flexWrap: "wrap",
-//       justifyContent: "center"
-//     }
-//   };
-
-
-
+const css = {
+    grid: {
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "center"
+    }
+  };
+  
 const Posts = () => {
 const blogPosts = [
 	{
@@ -26,6 +24,7 @@ const blogPosts = [
 	author: "Nishant Singh ",
 	imgUrl:
 		"https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+    category: "javascript example",
 	},
 	{
 	title: "Data Structure ",
@@ -83,6 +82,7 @@ const blogPosts = [
         author: "Nishant Singh ",
         imgUrl:
             "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+        category: "javascript example",
         },
         {
         title: "Data Structure ",
@@ -155,6 +155,7 @@ const blogPosts = [
             author: "Suresh Kr",
             imgUrl:
                 "https://media.geeksforgeeks.org/img-practice/banner/coa-gate-2022-thumbnail.png",
+            category: "javascript example",
             },
             {
             title: "Algorithm",
@@ -195,6 +196,7 @@ const blogPosts = [
                 used for Client-side developments as well as
                 Server-side developments`,
                 author: "Nishant Singh ",
+                category: "javascript example",
                 imgUrl:
                     "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
                 },
@@ -245,11 +247,14 @@ const blogPosts = [
 
 return (
     <>
+    <div style={css.grid}>
     <div className="container my-4">
     <div className="row">
+        
 	{blogPosts.map((post, index) => (
 		<Post key={index} index={index} post={post} />
 	))}
+    </div>
     </div>
     </div>
 </>

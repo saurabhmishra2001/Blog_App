@@ -21,7 +21,7 @@ function App() {
    
        
         <Routes>
-          <Route exact path='/Home'  element={<Home />} /> 
+          <Route exact path='/Home' element={<Home key="general" category='javascript example'/>}/>  
           <Route exact path='/Posts' element={<Posts/>} /> 
       
 
