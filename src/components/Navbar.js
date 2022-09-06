@@ -21,18 +21,18 @@ function Navbar() {
                             <Link className="nav-link" to="/Home">Home <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item active">
-                            <Link className="nav-link" to="/Post">Posts <span className="sr-only"></span></Link>
+                            <Link className="nav-link" to="/Posts">Posts <span className="sr-only"></span></Link>
                         </li>
                         <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle active" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Category
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link className="dropdown-item" to="/Posts">Home</Link>   
-                        <Link className="dropdown-item" to="/Post">Business</Link>
-                        <Link className="dropdown-item" to="/Post">Entertainment</Link>
+                        <Link className="dropdown-item" to="/DataStructure">Data Structure</Link>   
+                        <Link className="dropdown-item" to="/Computer">Computer Network</Link>
+                        <Link className="dropdown-item" to="/javascript">Javascript</Link>
                         <div className="dropdown-divider"></div>
-                        <Link className="dropdown-item" to="/Post">Health</Link>
+                        <Link className="dropdown-item" to="/Algorithm">Algorithm</Link>
                         <Link className="dropdown-item" to="/Post">Science</Link>
                         <Link className="dropdown-item" to="/Post">Sports</Link>
                         <Link className="dropdown-item" to="/Post">technology</Link>

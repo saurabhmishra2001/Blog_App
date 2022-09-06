@@ -155,7 +155,7 @@ const blogPosts = [
             author: "Suresh Kr",
             imgUrl:
                 "https://media.geeksforgeeks.org/img-practice/banner/coa-gate-2022-thumbnail.png",
-            category: "javascript example",
+           
             },
             {
             title: "Algorithm",
