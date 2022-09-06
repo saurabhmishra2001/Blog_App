@@ -33,9 +33,8 @@ function Navbar() {
                         <Link className="dropdown-item" to="/javascript">Javascript</Link>
                         <div className="dropdown-divider"></div>
                         <Link className="dropdown-item" to="/Algorithm">Algorithm</Link>
-                        <Link className="dropdown-item" to="/Post">Science</Link>
-                        <Link className="dropdown-item" to="/Post">Sports</Link>
-                        <Link className="dropdown-item" to="/Post">technology</Link>
+                        <Link className="dropdown-item" to="/AppDevelopment">App Development</Link>
+        
                         </div>
                     </li>
                     </ul>

@@ -14,7 +14,7 @@ const Post = ({ post: { title, body,
 imgUrl, author,category }, index }) => {
 return (
 
-<div style={{ margin: 0, width: "33%" }}>
+<div className="container my-3"style={{ margin: 0, width: "33%" }}>
           <Card style={{ margin: 5 }}>
             <CardImg top width="100%" src={imgUrl} alt="Card image cap" />
             <CardBody style={{ padding: 15 }}>

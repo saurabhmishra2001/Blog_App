@@ -5,6 +5,7 @@ import Computer from './components/Computer';
 import DataStructure from './components/DataStructure';
 import Algorithm from './components/Algorithm';
 import Javascript from './components/Javascript';
+import AppDevelopment from './components/AppDevelopment';
 
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route exact path='DataStructure'element={<DataStructure/>} /> 
           <Route exact path='Algorithm'element={<Algorithm/>} />
           <Route exact path='Javascript'element={<Javascript/>} />
+          <Route exact path='AppDevelopment'element={<AppDevelopment/>} />
       
 
          

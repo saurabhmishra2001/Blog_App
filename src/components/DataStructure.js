@@ -1,5 +1,4 @@
 import React from "react";
-// import "../styles/Posts.css"
 import Post from "../components/Post";
 const css = {
     grid: {
